@@ -1,5 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{margin: 0px; padding: 0px;}
 body {
   font-family: "Montserrat", serif;
+  background-color: rgba(243, 241, 241, 0.842) !important;
+}
+
+header{
+  width:100%;
+  height:80px;
+  background: #fff;
+
+}
+header .row{margin:0px !important;}
+
+
+header .logo img{
+  width: 50px;
+}
+
+header .logo span{
+  color:black;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+ header button.rounded-circle{
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px;
+  border:none;
+  font-size:20px;
+ }
+
+.searchbox{
+  width:400px;
+  height:50px;
+  background:#ebe6e6;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.searchbox input{
+  background:transparent;
+  border:0px;
+  outline:none;
+  padding-left:5px;
+
+}
+
+.myAcc .user-image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border:1px solid blueviolet;
+  padding:2px;
+  border-radius: 100%;
+}
+
+.myAcc .user-image .rounded-circle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  cursor:pointer;
+  position:relative;
+}
+
+.myAcc .user-image .rounded-circle img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+.myAcc .user-info{padding-left: 10px;}
+.myAcc .user-info h4{font-size:16px;font-weight: 500;margin-bottom:0px}
+.myAcc .user-info p{font-size:12px;font-weight: 500;margin-bottom:0px;opacity: 0.7;margin-top:0px;}
+
+.part3 .rounded-circle{
+  margin-left:5px;
 }
