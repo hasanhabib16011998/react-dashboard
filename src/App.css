@@ -5,7 +5,9 @@ body {
   font-family: "Montserrat", serif;
   background-color: rgba(243, 241, 241, 0.842) !important;
 }
-
+::-webkit-scrollbar{width: 5px !important; height:5px !important;}
+::-webkit-scrollbar-thumb{background:#ccc !important;}
+::-webkit-scrollbar-track{background:transparent !important;}
 header{
   width:100%;
   height:80px;
@@ -55,7 +57,7 @@ header .logo span{
 
 }
 
-.myAcc .user-image{
+.user-image{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +69,7 @@ header .logo span{
   border-radius: 100%;
 }
 
-.myAcc .user-image .rounded-circle{
+.user-image .rounded-circle{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +80,7 @@ header .logo span{
   position:relative;
 }
 
-.myAcc .user-image .rounded-circle img{
+.user-image .rounded-circle img{
   object-fit: cover;
   width:100%;
   height:100%;
@@ -95,11 +97,53 @@ header .logo span{
 .notification-menu .MuiPaper-root{
   right:15% !important;
   left:auto !important;
-  width:250px !important;
+  width:300px !important;
   top:10% !important;
 }
 
-.dropdown_list h4{
-  font-size:20px;
-  font-weight:600;
+.dropdown-list .scrollView{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.dropdown-list .head h4{
+  font-size:16px;
+
+}
+.dropdown-list li.MuiButtonBase-root{background:#c6d7ff8a !important;color:#000 !important;padding:10px 15px !important;}
+.dropdown-list li.MuiButtonBase-root:hover{background:#567dd883 !important;}
+.dropdown-list .head {
+  padding:10px 0px;
+
+}
+.dropdownInfo{padding-left:10px;}
+.dropdownInfo h4{
+  font-size: 14px;
+  font-weight: 500px;
+  white-space: break-spaces;
+  margin-top: 0px;
+}
+
+.dropdownInfo h4 b{
+  font-weight:600px;
+  margin-right:5px;
+}
+.dropdownInfo p{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.text-sky{
+  color:#0858f7 !important;
+}
+
+.btn-blue{
+  background: #0858f7 !important;
+  font-size:14px !important;
+  font-weight: 600 !important;
+  color:white !important;
+  text-transform: capitalize !important;
+  border-radius: 5px;
+  border:transparent;
+  height:35px;
 }

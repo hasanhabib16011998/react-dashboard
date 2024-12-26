@@ -111,24 +111,161 @@ const Header = () => {
                         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
                         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
                     >
+                        <div className="head pl-3 pb-0">
+                            <h4>Orders(12)</h4>
+                        </div>
+                        <Divider/>
+                        <div className="scrollView">
                         <MenuItem onClick={closeNotifications}>
-                        <ListItemIcon>
-                            <MdPersonAdd fontSize="small" />
-                        </ListItemIcon>
-                        My Notification
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
                         </MenuItem>
                         <MenuItem onClick={closeNotifications}>
-                        <ListItemIcon>
-                            <FaShieldHalved fontSize="small" />
-                        </ListItemIcon>
-                        Reset Password
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
                         </MenuItem>
                         <MenuItem onClick={closeNotifications}>
-                        <ListItemIcon>
-                            <MdLogout fontSize="small" />
-                        </ListItemIcon>
-                        Logout
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
                         </MenuItem>
+                        <MenuItem onClick={closeNotifications}>
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
+                        </MenuItem>
+                        <MenuItem onClick={closeNotifications}>
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
+                        </MenuItem>
+                        <MenuItem onClick={closeNotifications}>
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
+                        </MenuItem>
+                        <MenuItem onClick={closeNotifications}>
+                        <div className="d-flex">
+                        <div>
+                        <div className="user-image">
+                            <span className="rounded-circle">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
+                            </span>
+                        </div>
+                        </div>
+                        <div className="dropdownInfo">
+                            <h4>
+                                <span>
+                                    <b>Mahmudul </b> 
+                                    added to his favourite list 
+                                    <b> Leather belt steve madden</b>
+                                </span>
+                            </h4>
+                            <p className="text-sky mb-0">A few Seconds ago</p>
+                        </div>
+                        </div>
+                        </MenuItem>
+                        <div className="pl-3 pr-3 w-100 pt-3 pb-1">
+                        <button className="btn-blue w-100">View All Notifications</button></div>
+                        </div>
                     </Menu>
                 </div>
 
