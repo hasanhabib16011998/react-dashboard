@@ -98,3 +98,8 @@ header .logo span{
   width:250px !important;
   top:10% !important;
 }
+
+.dropdown_list h4{
+  font-size:20px;
+  font-weight:600;
+}
