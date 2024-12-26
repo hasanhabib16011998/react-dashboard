@@ -31,7 +31,14 @@ header .logo span{
   border:none;
   font-size:20px;
  }
-
+ header button.rounded-circle svg{
+  color:#292929;
+  font-size:18px !important;
+  transition: all 0 2s ease-in-out;
+ }
+ header button.rounded-circle svg:hover{
+  color:#0858f7 !important;
+ }
 .searchbox{
   width:400px;
   height:50px;
@@ -83,4 +90,11 @@ header .logo span{
 
 .part3 .rounded-circle{
   margin-left:5px;
+}
+
+.notification-menu .MuiPaper-root{
+  right:15% !important;
+  left:auto !important;
+  width:250px !important;
+  top:10% !important;
 }
