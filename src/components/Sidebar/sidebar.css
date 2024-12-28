@@ -1,0 +1,91 @@
+.main .sidebarWrapper {
+    width:20%;
+    flex: 0 0 20%;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.main .sidebarWrapper .sidebar {
+    width:20%;
+    height: 100vh;
+    max-height: calc(100%-70px);
+    position: fixed;
+    top:80px;
+    left:0px;
+    background: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+.main .sidebarWrapper .sidebar::-webkit-scrollbar{display:none}
+.main .sidebarWrapper:hover .sidebar::-webkit-scrollbar{display:block}
+.main .sidebarWrapper .sidebar ul {
+    margin-bottom: 0px;
+    padding-left: 0px !important;
+}
+.main .sidebarWrapper .sidebar ul li{
+    list-style:none;
+
+}
+.main .sidebarWrapper .sidebar ul li button{
+    color: #000;
+    text-align:left;
+    justify-content: left;
+    border-radius: 0px !important;
+    text-transform: capitalize !important;
+    border:transparent;
+    background-color: inherit;
+    display:flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon{
+    display: flex;
+    justify-content: center;
+    width:25px;
+    height:25px;
+    align-items: center;
+    margin-right: 10px;
+}
+.main .sidebarWrapper .sidebar ul li button .icon svg{
+    color:#000;
+    opacity:0.8;
+    font-size:22px;
+}
+
+.main .sidebarWrapper .sidebar ul li button .arrow{
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:25px;
+    height:25px;
+}
+.main .sidebarWrapper .sidebar ul li button:hover{
+    background-color: #f1f1f1;
+}
+.main .sidebarWrapper .sidebar ul .submenu{
+    padding:0px 45px;
+    margin-left: 40px;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    padding-left: 25px !important;
+}
+.main .sidebarWrapper .sidebar ul .submenu li{
+    width:100%;
+    list-style: none;
+    text-decoration: none;
+    display:block;
+    padding: 5px 0px;
+    font-size:14px;
+    transition:all 0.3s ease-in-out;
+}
+.main .sidebarWrapper .sidebar ul .submenu li a:hover{
+    color:cornflowerblue !important;
+    transition: 0;
+}
+.main .sidebarWrapper .sidebar ul .submenu li a{
+    color:#000;
+    text-decoration: none;
+}
