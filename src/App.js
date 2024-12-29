@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
     <Header/>
-    <div className='main'>
+    <div className='main d-flex'>
       <div className='sidebarWrapper'>
         <SideBar/>
       </div>

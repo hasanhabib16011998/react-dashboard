@@ -57,7 +57,7 @@ const Header = () => {
             <div className="col-sm-2 part1">
                 <Link to={'./'} className="d-flex align-items-center logo">
                     <img src={logo} alt={logo}/>
-                    <span className="ml-2">E-SHOP</span>
+                    <span className="ml-2">MY JYOTI</span>
                 </Link>
             </div>
 
@@ -272,8 +272,8 @@ const Header = () => {
 
                 <div className="myAccWrapper">
                     <div className="myAcc d-flex align-items-center">
-                    <div className="user-image" onClick={openMyAcc}>
-                    <span className="rounded-circle">
+                    <div className="user-image rounded-circle" onClick={openMyAcc}>
+                    <span className="user-img">
                             <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"/>
                         </span>
                     </div>
