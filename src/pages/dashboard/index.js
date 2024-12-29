@@ -1,5 +1,6 @@
 import "./dashboard.css";
 import DashboardBox from "./components/dashboardBox";
+import SalesBox from "./components/salesBox";
 import { FaUserCircle } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
 import { MdReviews } from "react-icons/md";
@@ -20,12 +21,7 @@ const  DashBoard = () => {
                     </div>
                 </div>
                 <div className="col-sm-4 pl-0">
-                    <div className="box graph-box">
-                    <div className="d-flex align-items-center w-100 bottomElement">
-
-                    </div>
-                    <h3 className="text-white font-weight-bold">$56,340.00</h3>
-                    </div>
+                <SalesBox/>
                 </div>
             </div>
 
