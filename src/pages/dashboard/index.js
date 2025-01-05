@@ -5,6 +5,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
 import { MdReviews } from "react-icons/md";
 import { FaShoppingBag } from "react-icons/fa";
+import Products from "./components/products";
 
 
 const  DashBoard = () => {
@@ -23,6 +24,11 @@ const  DashBoard = () => {
                 <div className="col-sm-4 pl-0">
                 <SalesBox/>
                 </div>
+            </div>
+
+            <div className="card shadow border-0 p-3 mt-4 align-items-center">
+            <h3 className="hd">Best Selling Products</h3>
+            <Products/>
             </div>
 
         </div>
