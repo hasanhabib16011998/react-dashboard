@@ -114,3 +114,67 @@
     font-weight: bold;
     color:rgb(27, 26, 25);
 }
+
+.table .thead-dark th{
+    background:#1866ee !important;
+    border-color: rgba(255,255,255,0) !important;
+    font-size: 13px !important;
+    color:white;
+}
+.table tbody td{
+    font-size:13px !important;
+    color:#403e57;
+    font-weight:500;
+}
+.table tbody .actions button{
+    min-width:25px !important;
+    min-height:25px !important;
+    margin:2px;
+}
+.table tbody .actions button svg{
+    font-size:15px !important;
+}
+
+.table tbody .actions button.preview{background: rgba(203,60,231,0.2);}
+.table tbody .actions button.edit{background: rgba(26, 231, 135, 0.2);}
+.table tbody .actions button.delete{background: rgba(203,60,231,0.2);}
+
+table.v-align td{
+    vertical-align:middle !important;
+}
+.table td .oldprice,.table td .newprice{
+    display:block;
+    width:100%;
+}
+table td .imgWrapper{width: 20%; flex: 0 0 20%;}
+table td .info{width:65%;flex: 0 0 65%;}
+
+table td .info h6{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:14px;
+    font-weight:500;
+    margin-bottom:5px;
+    overflow:hidden;
+}
+table td .info p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:13px;
+    line-height: 18px;
+    margin-bottom:5px;
+    overflow:hidden;
+
+}
+
+table.v-align td .productBox{
+    width:270px;
+}
+
+.tableFooter{
+    padding-bottom: 20px;
+}
+
+.tableFooter .pagination{
+    margin-left: auto;
+}
