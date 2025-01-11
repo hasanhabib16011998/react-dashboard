@@ -6,22 +6,22 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 function Products() {
-    const [age, setAge] = React.useState('');
+    const [showBy, setshowBy] = React.useState('');
 
     const handleChange = (event) => {
-      setAge(event.target.value);
+      setshowBy(event.target.value);
     };
   return (
     <>
     <div class>
       <FormControl sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-helper-label">Age</InputLabel>
+        <InputLabel id="demo-simple-select-helper-label">SHOW BY</InputLabel>
         <Select
           labelId="demo-simple-select-helper-label"
           id="demo-simple-select-helper"
-          value={age}
+          value={showBy}
           label="Age"
-          onChange={handleChange}
+          onChange={(e)=>setshowBy(e.target.value)}
         >
           <MenuItem value="">
             <em>None</em>
