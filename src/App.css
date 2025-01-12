@@ -154,5 +154,13 @@ header .logo span{
   height:35px;
 }
 .content{
+  width:80%;
+  flex:0 0 80%;
+  transition:all ease-in-out;
+}
+
+.content.toggle{
   width:100%;
+  flex:0 0 100%;
+  transition:all ease-in-out;
 }

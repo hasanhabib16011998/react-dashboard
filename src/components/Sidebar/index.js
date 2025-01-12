@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useContext} from 'react';
 import "./sidebar.css";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { FaAngleRight,FaAngleDown } from "react-icons/fa";
@@ -8,8 +8,11 @@ import { LuMessageSquareText } from "react-icons/lu";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { IoIosSettings } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import { MyContext } from '../../App';
 
 export default function SideBar() {
+    const context = useContext(MyContext);
+
     const [isProductMenuOpen, setIsProductMenuOpen] = useState(false);
     const toggleProductMenu = () => {
         setIsProductMenuOpen(!isProductMenuOpen);

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useContext } from "react";
 import { useState } from "react";
 import logo from '../../assets/images/logo.png';
 import { MdMenuOpen } from "react-icons/md";
+import { MdOutlineMenu } from "react-icons/md";
 import { MdMenu } from "react-icons/md";
 import SearchBox from "./searchBox";
 import { CiLight } from "react-icons/ci";
@@ -23,7 +24,7 @@ import { MdPersonAdd } from "react-icons/md";
 import { IoMdSettings } from "react-icons/io";
 import { MdLogout } from "react-icons/md";
 import { FaShieldHalved } from "react-icons/fa6";
-
+import { MyContext } from "../../App";
 
 
 
@@ -37,6 +38,9 @@ const Header = () => {
     const [isOpenNotifications,setOpenNotifications] = React.useState(false);
     const openAccounts = Boolean(anchorEl);
     const openNotificationMenu = Boolean(isOpenNotifications);
+
+    const context = useContext(MyContext);
+
     const openMyAcc = (event) => {
       setAnchorEl(event.currentTarget);
     };
@@ -62,7 +66,11 @@ const Header = () => {
             </div>
 
             <div className="col-sm-3 d-flex align-items-center part2 pl-4">
-                <button className="rounded-circle mr-3"><MdMenu/></button>
+                <button className="rounded-circle mr-3" onClick={()=>{context.setisToggleSideBar(!context.isToggleSideBar)}}>
+                    {
+                        context.isToggleSideBar===false ? <MdMenuOpen/>:<MdOutlineMenu/>
+                    }
+                </button>
                 <SearchBox/>
             </div>
 
