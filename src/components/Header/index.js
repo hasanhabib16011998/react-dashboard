@@ -25,7 +25,7 @@ import { IoMdSettings } from "react-icons/io";
 import { MdLogout } from "react-icons/md";
 import { FaShieldHalved } from "react-icons/fa6";
 import { MyContext } from "../../App";
-
+import { Button } from "bootstrap";
 
 
 
@@ -38,6 +38,7 @@ const Header = () => {
     const [isOpenNotifications,setOpenNotifications] = React.useState(false);
     const openAccounts = Boolean(anchorEl);
     const openNotificationMenu = Boolean(isOpenNotifications);
+    const [isLogin,setLogin] = useState(false);
 
     const context = useContext(MyContext);
 
@@ -276,9 +277,11 @@ const Header = () => {
                         </div>
                     </Menu>
                 </div>
-
-
-                <div className="myAccWrapper">
+                {
+                    isLogin!==true? <button className="btn-blue btn-lg"> Sign In</button>
+                    :
+                    <>
+                    <div className="myAccWrapper">
                     <div className="myAcc d-flex align-items-center">
                     <div className="user-image rounded-circle" onClick={openMyAcc}>
                     <span className="user-img">
@@ -346,7 +349,15 @@ const Header = () => {
                     Logout
                     </MenuItem>
                 </Menu>
-                </div>
+                    </div>
+                    </>
+
+                }
+
+                
+
+
+                
                 
             </div>
         </div>

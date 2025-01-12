@@ -28,6 +28,7 @@ function App() {
       <Routes>
         <Route path={'/'} exact={true} element={<DashBoard/>}/>
         <Route path={'/dashboard'} exact={true} element={<DashBoard/>}/>
+        <Route path={'/login'} exact={true} element={<Login/>}/>
       </Routes>
 
       </div>

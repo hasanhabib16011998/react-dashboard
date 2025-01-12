@@ -99,6 +99,7 @@ header .logo span{
 .part3 .rounded-circle{
   margin-left:5px;
 }
+.btn-lg{padding:10px 35px !important;margin:5px !important; border-radius:30px !important;}
 
 .notification-menu .MuiPaper-root{
   right:15% !important;
