@@ -1,7 +1,9 @@
 .right-content{
     padding:90px 30px;
 }
-
+body.dark .right-content{
+    background:#1d3872;
+}
 .dashboardBoxWrapper{
     gap:10px;
     width: 100%;
@@ -114,6 +116,9 @@
     font-weight: bold;
     color:rgb(27, 26, 25);
 }
+body.dark .card{
+    background: #112143;
+}
 
 .table .thead-dark th{
     background:#1866ee !important;
@@ -121,11 +126,18 @@
     font-size: 13px !important;
     color:white;
 }
+body.dark .table .thead-dark th{
+    background: #071533 !important;
+}
 .table tbody td{
     font-size:13px !important;
     color:#403e57;
     font-weight:500;
 }
+body.dark tbody{
+    background: #071533 !important;
+}
+
 .table tbody .actions button{
     min-width:25px !important;
     min-height:25px !important;

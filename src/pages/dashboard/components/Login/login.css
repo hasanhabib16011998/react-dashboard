@@ -1,0 +1,67 @@
+.loginSection{
+    width:100%;
+    height:100vh;
+    padding:35px 20px;
+    background: url('../../../../assets/images/login_background.jpg');
+    background-size: cover;
+}
+
+.loginSection .loginBox{
+    width:400px;
+    height:400px;
+    margin:auto;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 0 0 18px 3px rgb(205 136 205);
+}
+
+.loginSection .loginBox .wrapper{
+    height:100%;
+    
+
+}
+.loginSection .loginBox::after{
+    background-color: rgba(195, 195, 195, .1);
+    bottom: 10px;
+    content: '';
+    filter: blur(32px);
+    left: 10px;
+    opacity: .5;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.loginSection .loginBox .form-control{
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size:14px !important;
+    font-weight: 600;
+    height:45px !important;
+    padding-left: 40px;
+}
+.loginSection .loginBox .form-control:focus{
+    border: 1px solid rgb(205 136 205);
+}
+.loginSection .loginBox .form-group{
+    margin-top: 20px;
+}
+.loginSection .loginBox .form-group .loginBoxIcon{
+    position:absolute;
+    left:13px;
+    top:6px;
+    font-size: 20px;
+}
+.loginSection .loginBox .form-control:focus .loginBoxIcon svg{
+    color:rgba(194, 114, 194, 0.89) !important;
+}
+.toggleShowPassword{
+    position:absolute;
+    top:8px;
+    right:5px;
+}
+.toggleShowPassword svg{
+    font-size: 18px;
+}

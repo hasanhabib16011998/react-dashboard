@@ -38,7 +38,6 @@ const Header = () => {
     const [isOpenNotifications,setOpenNotifications] = React.useState(false);
     const openAccounts = Boolean(anchorEl);
     const openNotificationMenu = Boolean(isOpenNotifications);
-    const [isLogin,setLogin] = useState(false);
 
     const context = useContext(MyContext);
 
@@ -62,7 +61,7 @@ const Header = () => {
             <div className="col-sm-2 part1">
                 <Link to={'./'} className="d-flex align-items-center logo">
                     <img src={logo} alt={logo}/>
-                    <span className="ml-2">MY JYOTI</span>
+                    <span className="ml-2 brandName">MY JYOTI</span>
                 </Link>
             </div>
 
@@ -76,8 +75,11 @@ const Header = () => {
             </div>
 
             <div className="col-sm-7 d-flex justify-content-end align-items-center part3 pl-4">
-                <button className="rounded-circle mr-3"><CiLight/></button>
-                <button className="rounded-circle mr-3"><MdDarkMode/></button>
+                <button className="rounded-circle mr-3"
+                onClick={()=>context.setThemeMode(!context.themeMode)}><CiLight/>
+                </button>
+                {/* <button className="rounded-circle mr-3"><MdDarkMode/>
+                </button> */}
                 <button className="rounded-circle mr-3"><MdOutlineMailOutline/></button>
                 <button className="rounded-circle mr-3"><IoCartOutline/></button>
                 <div className="notificationWrapper position-relative">
@@ -278,7 +280,8 @@ const Header = () => {
                     </Menu>
                 </div>
                 {
-                    isLogin!==true? <button className="btn-blue btn-lg"> Sign In</button>
+                    context.isLogin!==true?
+                    <Link to={'/login'}><button className="btn-blue btn-lg"> Sign In</button></Link>
                     :
                     <>
                     <div className="myAccWrapper">

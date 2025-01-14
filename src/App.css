@@ -20,6 +20,10 @@ header{
   backdrop-filter: blur(10px) !important;
 
 }
+
+body.dark header{
+  background: #112143 !important;
+}
 header .row{margin:0px !important;}
 
 
@@ -39,14 +43,28 @@ header .logo span{
   border:none;
   font-size:20px;
  }
+
+ body.dark header button.rounded-circle{
+  background:#112143 !important;
+ }
  header button.rounded-circle svg{
   color:#292929;
   font-size:18px !important;
   transition: all 0 2s ease-in-out;
  }
+ body.dark header button.rounded-circle svg{
+  color:white;
+ }
  header button.rounded-circle svg:hover{
   color:#0858f7 !important;
  }
+
+.full{
+  max-width:100% !important;
+  flex: 0 0 100% !important;
+  width: 100% !important;
+
+}
 .searchbox{
   width:400px;
   height:50px;
@@ -54,13 +72,22 @@ header .logo span{
   border-radius: 6px;
   padding: 3px;
 }
-
+body.dark .searchbox{
+  background: #3e5586;
+}
 .searchbox input{
   background:transparent;
   border:0px;
   outline:none;
   padding-left:5px;
 
+}
+body.dark .brandName{
+  color:rgb(145, 81, 204);
+}
+
+body.dark .searchbox input{
+  color:white;
 }
 
 .user-image{
@@ -93,9 +120,13 @@ header .logo span{
 }
 
 .myAcc .user-info{padding-left: 10px;}
+body.dark .myAcc .user-info{color:white !important;}
 .myAcc .user-info h4{font-size:16px;font-weight: 500;margin-bottom:0px}
 .myAcc .user-info p{font-size:12px;font-weight: 500;margin-bottom:0px;opacity: 0.7;margin-top:0px;}
-
+body.dark .css-1toxriw-MuiList-root-MuiMenu-list{
+  background: #112143;
+  color:white;
+}
 .part3 .rounded-circle{
   margin-left:5px;
 }
