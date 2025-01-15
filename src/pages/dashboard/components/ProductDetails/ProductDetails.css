@@ -1,0 +1,72 @@
+.right-content{
+    padding:90px 30px;
+}
+body.dark .right-content{
+    background:#1d3872;
+}
+.card{
+    margin:20px 0px;
+    border-radius: 10px;
+}
+
+.card .hd{
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(27, 26, 25);
+}
+body.dark .card{
+    background: #112143;
+}
+
+.sliderSmall .slick-slide{
+    padding-right:10px;
+}
+.sliderSmall .slick-slide .item{
+    border-radius: 7px;
+    overflow: hidden;
+}
+.productDetails h4{
+    line-height: 32px;
+}
+
+.productInfo .icon{
+    width: 18%;
+    flex:0 0 20%;
+}
+.productInfo .icon svg{
+    font-size: 18px;
+}
+
+.productInfo .name{
+    width: 82%;
+    flex:0 0 80%;
+}
+.productInfo .row .col-sm-7 span{
+    opacity:0.8;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.productInfo .row .col-sm-7{
+    display:flex;
+    align-items: center;
+}
+
+.tags{
+    margin-bottom:0px !important;
+}
+
+.tags li span{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding:2px;
+    font-size: 12px !important;
+}
+.ratingrow{width:100%; margin-bottom:15px !important;justify-content: center;}
+.ratingrow .progress{height:5px !important;background-color: #cfc5c5 !important;}
+.ratingrow .progress .progress-bar{background: #edb213 !important;}
+.ratingrow .col1{width:15%;flex:0 0 15%;display:flex;}
+.ratingrow .col2{width:50%;flex:0 0 50%;align-self: center;}
+.ratingrow .col3{width:25%;flex:0 0 25%;display:flex;margin-left: 10px;}

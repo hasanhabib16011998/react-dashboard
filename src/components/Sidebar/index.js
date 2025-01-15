@@ -38,7 +38,7 @@ export default function SideBar() {
                 </button>
                 {isProductMenuOpen && (
                 <ul className='submenu'>
-                    <li><Link to="#">Product List</Link></li>
+                    <li><Link to="/products-list">Product List</Link></li>
                     <li><Link to="#">Product View</Link></li>
                     <li><Link to="#">Product Upload</Link></li>
                 </ul>

@@ -1,0 +1,182 @@
+[
+  {
+    "uid": "#1",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Facewash for female customers",
+      "description": "Women's exclusive collection summer skincare facewash and moisturizer"
+    },
+    "category": "Skincare",
+    "brand": "Molekulaire",
+    "price": {
+      "old": "$621.00",
+      "new": "$521.00"
+    },
+    "stock": 50,
+    "rating": 4.5,
+    "order": 12,
+    "sales": "$8388"
+  },
+  {
+    "uid": "#2",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "High-Performance Laptop",
+      "description": "14-inch screen, Intel Core i7, 16GB RAM, 512GB SSD"
+    },
+    "category": "Electronics",
+    "brand": "Dell",
+    "price": {
+      "old": "$1100.00",
+      "new": "$950.00"
+    },
+    "stock": 30,
+    "rating": 4.8,
+    "order": 25,
+    "sales": "$23750"
+  },
+  {
+    "uid": "#3",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Smartphone Pro",
+      "description": "Latest model with exceptional camera and fast performance"
+    },
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": {
+      "old": "$1200.00",
+      "new": "$999.00"
+    },
+    "stock": 100,
+    "rating": 4.9,
+    "order": 40,
+    "sales": "$39960"
+  },
+  {
+    "uid": "#4",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Smart Fitness Watch",
+      "description": "Track your health and fitness goals with style"
+    },
+    "category": "Wearables",
+    "brand": "Fitbit",
+    "price": {
+      "old": "$199.00",
+      "new": "$179.00"
+    },
+    "stock": 60,
+    "rating": 4.3,
+    "order": 50,
+    "sales": "$8950"
+  },
+  {
+    "uid": "#5",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "4K Ultra HD TV",
+      "description": "50-inch screen with vibrant colors and smart features"
+    },
+    "category": "Electronics",
+    "brand": "Samsung",
+    "price": {
+      "old": "$800.00",
+      "new": "$750.00"
+    },
+    "stock": 20,
+    "rating": 4.7,
+    "order": 10,
+    "sales": "$7500"
+  },
+  {
+    "uid": "#6",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Noise-Cancelling Headphones",
+      "description": "Experience premium sound quality without distractions"
+    },
+    "category": "Accessories",
+    "brand": "Sony",
+    "price": {
+      "old": "$299.00",
+      "new": "$249.00"
+    },
+    "stock": 80,
+    "rating": 4.6,
+    "order": 35,
+    "sales": "$8715"
+  },
+  {
+    "uid": "#7",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Running Shoes",
+      "description": "Comfortable and durable shoes for all runners"
+    },
+    "category": "Footwear",
+    "brand": "Nike",
+    "price": {
+      "old": "$120.00",
+      "new": "$99.00"
+    },
+    "stock": 200,
+    "rating": 4.8,
+    "order": 150,
+    "sales": "$14850"
+  },
+  {
+    "uid": "#8",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Luxury Watch",
+      "description": "Classic design with modern craftsmanship"
+    },
+    "category": "Accessories",
+    "brand": "Rolex",
+    "price": {
+      "old": "$10000.00",
+      "new": "$9500.00"
+    },
+    "stock": 5,
+    "rating": 4.9,
+    "order": 2,
+    "sales": "$19000"
+  },
+  {
+    "uid": "#9",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Gourmet Coffee Beans",
+      "description": "Rich and flavorful beans for the perfect brew"
+    },
+    "category": "Groceries",
+    "brand": "Starbucks",
+    "price": {
+      "old": "$25.00",
+      "new": "$20.00"
+    },
+    "stock": 150,
+    "rating": 4.7,
+    "order": 100,
+    "sales": "$2000"
+  },
+  {
+    "uid": "#10",
+    "product": {
+      "image": "https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493",
+      "name": "Travel Backpack",
+      "description": "Durable and spacious backpack for all your adventures"
+    },
+    "category": "Travel Gear",
+    "brand": "North Face",
+    "price": {
+      "old": "$150.00",
+      "new": "$130.00"
+    },
+    "stock": 40,
+    "rating": 4.6,
+    "order": 25,
+    "sales": "$3250"
+  }
+]

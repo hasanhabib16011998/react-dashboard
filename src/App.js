@@ -5,6 +5,8 @@ import DashBoard from './pages/dashboard/index';
 import Header from './components/Header';
 import SideBar from './components/Sidebar';
 import Login from './pages/dashboard/components/Login/index';
+import ProductsList from './pages/dashboard/components/ProductList/index';
+import ProductDetails from './pages/dashboard/components/ProductDetails';
 import { createContext, useEffect, useState } from 'react';
 import { SiTrueup } from 'react-icons/si';
 
@@ -62,6 +64,8 @@ function App() {
         <Route path={'/'} exact={true} element={<DashBoard/>}/>
         <Route path={'/dashboard'} exact={true} element={<DashBoard/>}/>
         <Route path={'/login'} exact={true} element={<Login/>}/>
+        <Route path={'/products-list'} exact={true} element={<ProductsList/>}/>
+        <Route path={'/product-details'} exact={true} element={<ProductDetails/>}/>
       </Routes>
 
       </div>
