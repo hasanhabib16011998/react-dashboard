@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './ProductDetails.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,6 +13,9 @@ import LinearProgress from '@mui/material/LinearProgress';
 
 
 function ProductDetails() {
+
+  const productSliderBig = useRef();
+  const productSliderSmall = useRef();
   var productSliderOptions = {
     dots: false,
     infinite: false,
@@ -27,6 +30,11 @@ function ProductDetails() {
     slidesToShow: 3,
     slidesToScroll: 1
   };
+
+  const goToSlide=(index)=>{
+    productSliderBig.current.slickGoTo(index);
+    productSliderSmall.current.slickGoTo(index);
+  }
   return (
     <>
     <div className="right-content w-100">
@@ -39,7 +47,7 @@ function ProductDetails() {
         <div className='col-md-5'>
         <div className='sliderWrapper p-5'>
         <h5 className='mb-3'>Product Gallery</h5>
-        <Slider {...productSliderOptions} className='sliderBig mb-3'>
+        <Slider {...productSliderOptions} ref={productSliderBig} className='sliderBig mb-3'>
           <div className='item'>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
@@ -51,20 +59,20 @@ function ProductDetails() {
           </div>
           
         </Slider>
-        <Slider {...productSliderSmlOptions} className='sliderSmall'>
-          <div className='item'>
+        <Slider {...productSliderSmlOptions} ref={productSliderSmall} className='sliderSmall'>
+          <div className='item' onClick={()=>goToSlide(1)}>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
-          <div className='item'>
+          <div className='item' onClick={()=>goToSlide(2)}>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
-          <div className='item'>
+          <div className='item' onClick={()=>goToSlide(3)}>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
-          <div className='item'>
+          <div className='item' onClick={()=>goToSlide(4)}>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
-          <div className='item'>
+          <div className='item' onClick={()=>goToSlide(4)}>
           <img src="https://www.molekulaire.com/cdn/shop/files/Facewash_1_8c140dcd-3f50-478b-94c2-065559b055c1.jpg?v=1721396364&width=493" alt="product-image" className='w-100' />
           </div>
           

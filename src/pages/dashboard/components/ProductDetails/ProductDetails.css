@@ -25,6 +25,7 @@ body.dark .card{
     border-radius: 7px;
     overflow: hidden;
 }
+.sliderSmall .slick-current .item{border:1px solid #ccc !important}
 .productDetails h4{
     line-height: 32px;
 }
@@ -70,3 +71,8 @@ body.dark .card{
 .ratingrow .col1{width:15%;flex:0 0 15%;display:flex;}
 .ratingrow .col2{width:50%;flex:0 0 50%;align-self: center;}
 .ratingrow .col3{width:25%;flex:0 0 25%;display:flex;margin-left: 10px;}
+
+.sliderBig *,.sliderSmall *{transition: all 0.2s !important;}
+
+.sliderBig .item{overflow: hidden;border-radius: 7px; border:1px dashed #ccc !important;}
+.sliderSmall .item{overflow: hidden;border-radius: 7px; border:1px dashed #ccc !important;}
