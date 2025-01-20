@@ -1,0 +1,42 @@
+.right-content{
+    padding:90px 30px;
+}
+body.dark .right-content{
+    background:#1d3872;
+}
+.card{
+    border-radius: 10px;
+}
+
+.card .hd{
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(27, 26, 25);
+}
+body.dark .card{
+    background: #112143;
+}
+
+.form .form-group{margin-bottom:25px;}
+.form .form-group input{
+    background: #fafafa;
+    width:100%;
+    outline:none !important;
+    border:1px solid rgba(0,0,0,0.1) !important;
+    height:40px;
+    padding-left:15px;
+    font-size:15px;
+    border-radius: 10px;
+}
+
+.form .form-group textarea{
+    height: 120px;
+    padding-top: 15px;
+    background: #fafafa;
+    width:100%;
+    outline:none !important;
+    border:1px solid rgba(0,0,0,0.1) !important;
+    padding-left:15px;
+    font-size:15px;
+    border-radius: 10px;
+}

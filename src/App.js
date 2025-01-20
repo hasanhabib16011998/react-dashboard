@@ -7,6 +7,7 @@ import SideBar from './components/Sidebar';
 import Login from './pages/dashboard/components/Login/index';
 import ProductsList from './pages/dashboard/components/ProductList/index';
 import ProductDetails from './pages/dashboard/components/ProductDetails';
+import ProductUpload from './pages/dashboard/components/ProductUpload';
 import { createContext, useEffect, useState } from 'react';
 import { SiTrueup } from 'react-icons/si';
 
@@ -66,6 +67,7 @@ function App() {
         <Route path={'/login'} exact={true} element={<Login/>}/>
         <Route path={'/products-list'} exact={true} element={<ProductsList/>}/>
         <Route path={'/product-details'} exact={true} element={<ProductDetails/>}/>
+        <Route path={'/product-upload'} exact={true} element={<ProductUpload/>}/>
       </Routes>
 
       </div>
